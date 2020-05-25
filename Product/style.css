@@ -205,23 +205,6 @@ nav {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
-    .nav-logo img {
-        width: 80%;
-        height: auto;
-    }
-    .card-holder {
-        flex-direction: column;
-    }
-    .card {
-        width: 80%;
-        margin: 0 auto 15px;
-    }
-    header {
-        margin-top: 80px;
-    }
-}
-
 footer {
     margin-top: 30px;
     background-color: #ddd;
@@ -253,4 +236,21 @@ footer span {
     justify-content: flex-end;
     color: #444;
     font-size: 0.9em;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-logo img {
+        width: 80%;
+        height: auto;
+    }
+    .card-holder {
+        flex-direction: column;
+    }
+    .card {
+        width: 80%;
+        margin: 0 auto 15px;
+    }
+    header {
+        margin-top: 80px;
+    }
 }
