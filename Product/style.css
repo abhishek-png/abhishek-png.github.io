@@ -109,7 +109,7 @@ header form input {
     box-shadow: 2px 2px 5px #ccc
 }
 
-@media(min-width: 360px) {
+@media only screen and (max-width: 360px) {
     .card {
         width: 100%;
     }
