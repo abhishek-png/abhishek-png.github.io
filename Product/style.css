@@ -183,7 +183,7 @@ nav {
 }
 
 .nav-menu ul {
-    width: 35vw;
+    width: 40vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
