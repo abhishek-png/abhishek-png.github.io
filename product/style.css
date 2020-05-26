@@ -48,7 +48,7 @@ nav {
 }
 
 .nav-menu ul {
-    display: none;
+    display: block;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: disc;
@@ -249,10 +249,19 @@ footer span {
     font-size: 0.9em;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .nav-logo img {
         width: 80%;
         height: auto;
+    }
+    .nav-menu ul li {
+        display: none;
+    }
+    .nav-menu .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
     .card-holder {
         flex-direction: column;

@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="topnav" id="myTopnav">
         <div class="nav-logo"><img src="original_trombones.png" alt="logo"></div>
 
         <div class="nav-menu">
-            <div class="menu-icon">
+            <div class="menu-icon" onclick="myFunction()" href="javascript:void(0);">
                 <div></div>
                 <div></div>
                 <div></div>
@@ -130,6 +130,17 @@
             <span>&copy Copyright 2020, Original Trombones</span>
         </footer>
     </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>
